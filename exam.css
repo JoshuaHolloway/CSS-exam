@@ -1,0 +1,11 @@
+#container {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  background: yellow;
+  width: 100px;
+  height: 50px;
+}
