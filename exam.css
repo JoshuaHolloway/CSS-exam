@@ -90,19 +90,21 @@ main img {
 .section-below-main-image__cols {
 /* #section-below-main-image__col1 { */
   height: 127px;
-  width: 196px;
+  width: 182px;
   display: inline-block;
   vertical-align: top;
 
-  margin-top: 0px;
-  margin-left: 0px;
+  padding-top: 27px;
+  padding-left: 12px;
 
   /* DEBUG */
   background: yellow;
   opacity: 0.5;
 }
 
-
+.section-below-main-image__cols img {
+  height: 27px;
+}
 
 
 
