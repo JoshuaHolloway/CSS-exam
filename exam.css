@@ -215,6 +215,19 @@ main img {
   margin-left: 0px;
 }
 
+#josh {
+  display: inline-block;
+  float: right;
+
+  font-size: 10px;
+  font-style: italic;
+  text-decoration: none;
+  color: yellow;
+
+  margin-top: -20px;
+  margin-right: 30px;
+}
+
 .row-6__cols {
   height: 250px;
   width: 190px;
@@ -248,11 +261,6 @@ main img {
   margin-top: 12px;
   margin-left: 0px;
 }
-
-.row-6__cols h4:nth-of-type(4) {
-  margin-left: 0px;
-}
-
 
 .row-6__cols p {
   font-size: 10px;
