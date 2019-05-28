@@ -1,10 +1,29 @@
 #container {
-  background: red;
   width: 825px;
   height: 1000px;
 
   /* DEBUG */
+  /* background: silver; */
   background-image: url(spec.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+/* -------------------------------------------------------------------------- */
+/* top of page */
+header {
+  background: red;
+  height: 95px;
+
+  /* DEBUG */
+  opacity: 0.5;
+}
+
+#img-logo {
+  height: 57px;
+
+  margin-top: 18px;
+  margin-left: 16px;
+
+  /* DEBUG */
+  opacity: 0.5;
 }
