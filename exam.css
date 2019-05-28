@@ -171,7 +171,7 @@ nav a:nth-of-type(6) { margin-left: 38px; }
 #row-5 a {
   background-image: linear-gradient(#F29957, #EF802E);
   /* background: #EF802E; */
-  height: 22px;
+  height: 23px;
   width: 96px;
   display: block;
   border-radius: 7px;
@@ -184,7 +184,7 @@ nav a:nth-of-type(6) { margin-left: 38px; }
   margin-top: -58px;
   margin-right: 40px;
 
-  padding-top: 5px;
+  padding-top: 9px;
   text-align: center;
 
   font-family: sans-serif;
