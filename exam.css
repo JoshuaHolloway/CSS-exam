@@ -1,3 +1,8 @@
+* {
+  font-family: sans-serif;
+}
+
+
 #container {
   width: 825px;
   height: 1000px;
@@ -37,5 +42,28 @@ header h4 { /* phone-number */
   margin-right: 19px;
 
   font-size: 12.5px;
-  font-family:sans-serif;
 }
+/* -------------------------------------------------------------------------- */
+/* nav-bar */
+nav {
+  background: blue;
+  height: 28px;
+
+  padding-left: 30px;
+  padding-top: 8px;
+
+  /* DEBUG */
+  opacity: 0.5;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 11.5px;
+}
+nav a:nth-of-type(2) { margin-left: 26px; } /* 2nd a-tag in nav-bar */
+/* .after-2-nav { margin-left: 38px; } */   /* all a-tags after 2nd in nav-bar */
+nav a:nth-of-type(3) { margin-left: 38px; }
+nav a:nth-of-type(4) { margin-left: 39px; }
+nav a:nth-of-type(5) { margin-left: 38px; }
+nav a:nth-of-type(6) { margin-left: 38px; }
