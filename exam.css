@@ -145,13 +145,27 @@ nav a:nth-of-type(6) { margin-left: 38px; }
 #row-5 {
   height: 121px;
   /* width: 100px; */
-  background: green;
   color: white; /* text-color */
 
   padding-top: 17px;
   padding-left: 36px;
 
-  background: #050505;
+  /* background: #050505; */
+  /* background: repeating-linear-gradient(135deg,
+    #606dbc,
+    #606dbc 1px,
+    #465298 1px,
+    #465298 3px); */
+
+    /* background: repeating-linear-gradient(135deg,
+      black,
+      #050505 1px,
+      #202020 3px); */
+
+      background: repeating-linear-gradient(135deg,
+        black,
+        #050505 1px,
+        #202020 3px);
 
   /* DEBUG */
   /* opacity: 0.5; */
@@ -239,6 +253,10 @@ nav a:nth-of-type(6) { margin-left: 38px; }
 
   /* Orange text color */
   color: #EF7F2C;
+}
+
+#josh:after {
+    content: ' \2192';
 }
 
 .row-6__cols {
