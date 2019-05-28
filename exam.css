@@ -188,9 +188,50 @@ main img {
 
   float: right;
 }
-
-
 /* -------------------------------------------------------------------------- */
+/* row-6 */
+#row-6 {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 22px;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  height: 300px;
+
+  /* DEBUG */
+  background: red;
+  opacity: 0.5;
+}
+
+#row-6 h3 {
+  height: 24px;
+  width: 200px;
+
+  margin-top: 8px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.row-6__cols {
+  height: 250px;
+  width: 190px;
+
+  margin-top: 16px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  /* DEBUG */
+  background: blue;
+}
+
+.row-6__cols img {
+  height: 100px;
+}
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
