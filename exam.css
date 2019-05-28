@@ -225,12 +225,36 @@ main img {
   margin-bottom: 0px;
   margin-left: 0px;
 
+  /* text-color */
+  color: white;
+
   /* DEBUG */
   background: blue;
 }
 
 .row-6__cols img {
-  height: 100px;
+  height: 112px;
+
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.row-6__cols h4 {
+  font-family:serif;
+  font-size: 14px;
+
+  margin-top: 12px;
+  margin-left: 0px;
+}
+
+.row-6__cols p {
+  font-size: 10px;
+
+  margin-top: -12px;
+  margin-left: 2px;
+
+  /* letter-spacing: 3px; */
+  line-height: 15px;
 }
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
