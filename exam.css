@@ -1,11 +1,10 @@
 #container {
   background: red;
-  width: 100px;
-  height: 100px;
-}
+  width: 825px;
+  height: 1000px;
 
-main {
-  background: yellow;
-  width: 100px;
-  height: 50px;
+  /* DEBUG */
+  background-image: url(spec.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
